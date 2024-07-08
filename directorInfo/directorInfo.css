@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(235, 168, 235);
+    font-family: "Comfortaa", sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    font-weight: 800;
+    position: relative;
+    font-size: large;
+    border-top: 2px solid rgb(156, 31, 156);
+}
+
+p {
+    font-weight: 400;
+}
+
+a {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
