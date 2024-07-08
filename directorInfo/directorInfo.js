@@ -57,6 +57,7 @@ directors.forEach((item)=> {
     const career = document.createElement('p');
     const films = document.createElement('a');
     const topFilm = document.createElement('span');
+    const topFilmsList = []
 
     listItem.textContent = item.name;
     career.textContent = item.career;
@@ -66,7 +67,8 @@ directors.forEach((item)=> {
     listItem.append(career);
     listItem.append(films);
 
-    topFilm.textContent = item.top_rated_film + ', ';
+    topFilmsList.push(item.top_rated_film);
+    topFilm.textContent = '"'+ topFilmsList + '"' + ', ';
     topRatedFilms.append(topFilm);
 });
 
